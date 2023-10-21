@@ -6,9 +6,14 @@
     border-width: 3px;
     border-style: solid;
     border-color: white;
+
+    margin: auto;
 }
 #table-buah h3 {
     font-size: 32px;
+}
+#table-buah td {
+    padding: 20px;
 }
 .link {
     color: red;
