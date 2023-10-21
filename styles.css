@@ -1,0 +1,20 @@
+#table-buah {
+    border-collapse: collapse;
+    background-image: url(image/zz.jpg);
+    background-size: 100%;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+}
+.link {
+    color: red;
+    text-decoration: none;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: turquoise;
+}
+#table-buah h3 {
+    font-size: 32px;
+}
