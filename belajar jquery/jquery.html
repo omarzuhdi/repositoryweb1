@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JQuery</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script src="asset/js/jquery-3.6.0.min.js"></script> -->
+
+    <script>
+        $(document).ready(function(){
+            $("#hide").click(function(){
+                $("p").hide(); 
+            });
+            $("#show").click(function(){
+                $("p").show();
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <p>Kalimat Paragraf Pertama. HILANG</p>
+    <p>Kalimat Paragraf Kedua dst. HILANG</p>
+    <button id="hide">HILANG</button>
+    <button id="show">MUNCUL</button>
+</body>
+</html>
