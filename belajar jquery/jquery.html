@@ -42,17 +42,27 @@
     </script> -->
 
 <!-- TUGAS HALAMAN 15 SCRIPT -->
-    <script>
+    <!-- <script>
         $(document).ready(function(){
            $("button").click(function(){
             alert("Value:" + $("test").val());  });
         }); 
+    </script> -->
+
+<!-- TUGAS HALAMAN 16 SCRIPT -->
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                alert($("jong").attr("href"));  });
+            });
     </script>
 </head>
 <body>
-    
-    <p>Name: <input type="text" id="test" value="Mickey Mouse"></p>
-    <button>Show Value</button>
+    <p><a href="https://jongkreatif.com/" id="jong">jongkreatif.com</a></p>
+    <button>Show href Value</button>
+
+    <!-- <p>Name: <input type="text" id="test" value="Mickey Mouse"></p>
+    <button>Show Value</button> -->
 
     <!-- <p id="test">This is some <b>bold</b> text in a paragraph.</p>
     <button id="btn1">Show Text</button>
