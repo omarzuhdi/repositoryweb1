@@ -8,6 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- <script src="asset/js/jquery-3.6.0.min.js"></script> -->
 
+<!-- HILANG-MUNCUL SCRIPT -->
     <!-- <script>
         $(document).ready(function(){
             $("#hide").click(function(){
@@ -18,7 +19,9 @@
             });
         });
     </script> -->
-    <script>
+
+<!-- LIST ITEM SCRIPT -->
+    <!-- <script>
         $(document).ready(function(){
             $("li").eq(1).addClass("selected1");
             $("li").eq(2).addClass("selected2");
@@ -26,16 +29,31 @@
     </script>
     <style> .selected1 {color: red;}
             .selected2 {color: blue;} 
-    </style>
+    </style> -->
+
+<!-- TUGAS HALAMAN 14 SCRIPT -->
+    <script>
+        $(document).ready(function(){
+            $("#btn1").click(function(){
+                alert("Text:" + $("#test").text()); });
+            $("#btn2").click(function(){
+                alert("HTML:" + $("#test").text()); });
+        });
+    </script>
 </head>
 <body>
-    <div>
+    <p id="test">This is some <b>bold</b> text in a paragraph.</p>
+    <button id="btn1">Show Text</button>
+    <button id="btn2">Show HTML</button>
+
+    <!-- <div>
         <ul>
             <li>list item 1</li>
             <li>list item 2</li>
             <li>list item 3</li>
         </ul>
-    </div>
+    </div> -->
+
     <!-- <p>Kalimat Paragraf Pertama. HILANG</p>
     <p>Kalimat Paragraf Kedua dst. HILANG</p>
     <button id="hide">HILANG</button>
