@@ -50,16 +50,36 @@
     </script> -->
 
 <!-- TUGAS HALAMAN 16 SCRIPT -->
-    <script>
+    <!-- <script>
         $(document).ready(function(){
             $("button").click(function(){
                 alert($("jong").attr("href"));  });
             });
+    </script> -->
+
+<!-- TUGAS HALAMAN 18     -->
+    <script>
+        $(document).ready(function(){
+            $("#btn1").click(function(){
+                $("#test1").text("Kalimat 1 Berubah!"); });
+            $("#btn2").click(function(){
+                $("#test2").html("<b> Kalimat 2 Juga! </b>"); });
+            $("#btn3").click(function(){
+                $("#test3").val("Pasti Bisa"); });
+            });
     </script>
 </head>
 <body>
-    <p><a href="https://jongkreatif.com/" id="jong">jongkreatif.com</a></p>
-    <button>Show href Value</button>
+    <p id="test1">Perhatikan Kalimat INI.</p>
+    <p id="test2">Perhatikan JUGA Kalimat Itu.</p>
+    <p>Input field: <input type="text" id="test3" value="Indonesia"></p>
+
+    <button id="btn1">Set Text</button>
+    <button id="btn2">Set HTML</button>
+    <button id="btn3">Set Value</button>
+
+    <!-- <p><a href="https://jongkreatif.com/" id="jong">jongkreatif.com</a></p>
+    <button>Show href Value</button> -->
 
     <!-- <p>Name: <input type="text" id="test" value="Mickey Mouse"></p>
     <button>Show Value</button> -->
