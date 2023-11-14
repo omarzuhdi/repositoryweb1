@@ -54,11 +54,11 @@
         $(document).ready(function(){
             $("button").click(function(){
                 alert($("jong").attr("href"));  });
-            });
+        });
     </script> -->
 
-<!-- TUGAS HALAMAN 18     -->
-    <script>
+<!-- TUGAS HALAMAN 18 SCRIPT -->
+    <!-- <script>
         $(document).ready(function(){
             $("#btn1").click(function(){
                 $("#test1").text("Kalimat 1 Berubah!"); });
@@ -66,17 +66,30 @@
                 $("#test2").html("<b> Kalimat 2 Juga! </b>"); });
             $("#btn3").click(function(){
                 $("#test3").val("Pasti Bisa"); });
-            });
+        });
+    </script> -->
+
+<!-- TUGAS HALAMAN 19 SCRIPT -->
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#w3s").attr({
+                    "href"  : "https://jongkreatif.id",
+                    "title" : "jQuery Tutorial"
+                }); }); 
+        });
     </script>
 </head>
 <body>
-    <p id="test1">Perhatikan Kalimat INI.</p>
+    <p><a href="https://jongkreatif.com" title="judulnya" id="w3s">JongKreatif.com</a></p>
+    <button>Ganti href and Judul</button>
+
+    <!-- <p id="test1">Perhatikan Kalimat INI.</p>
     <p id="test2">Perhatikan JUGA Kalimat Itu.</p>
     <p>Input field: <input type="text" id="test3" value="Indonesia"></p>
-
-    <button id="btn1">Set Text</button>
-    <button id="btn2">Set HTML</button>
-    <button id="btn3">Set Value</button>
+            <button id="btn1">Set Text</button>
+            <button id="btn2">Set HTML</button>
+            <button id="btn3">Set Value</button> -->
 
     <!-- <p><a href="https://jongkreatif.com/" id="jong">jongkreatif.com</a></p>
     <button>Show href Value</button> -->
