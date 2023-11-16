@@ -1,6 +1,5 @@
 <?php
 
-var_dump (1 != 5);
-echo "</br>";   #output baris ke-6
+var_dump (1 === "1");  #output baris ke-7
 
 ?>
