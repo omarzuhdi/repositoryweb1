@@ -1,5 +1,6 @@
 <?php
 
-var_dump (1 !== "1");  #output baris ke-8
+$x = 10;
+var_dump ($x < 20 && $x % 2 == 0);  #output baris ke-9
 
 ?>
