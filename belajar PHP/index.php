@@ -1,7 +1,8 @@
 <?php
 
-$nama_depan = "Komaruddin";
-$nama_belakang = "Zuhdi";
+$x = 10;
+$x += 2;    #operator assignment +=
 
-echo $nama_depan . " " . $nama_belakang;
+echo $x . "</br>";
+
 ?>
