@@ -1,8 +1,8 @@
 <?php
 
-$y = 10;
-$y -= 2;    #operator assignment -=
+$x = 10;
+$x /= 2;    #operator assignment /=
 
-echo $y . "</br>";
+echo $x . "</br>";
 
 ?>
