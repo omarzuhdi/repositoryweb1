@@ -1,6 +1,7 @@
 <?php
-//operator aritmatika
-$x = 10;
-$y = 20;
-echo $x % $y ; #operator modulus
+
+$nama_depan = "Komaruddin";
+$nama_belakang = "Zuhdi";
+
+echo $nama_depan . " " . $nama_belakang;
 ?>
