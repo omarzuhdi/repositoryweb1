@@ -2,5 +2,5 @@
 //operator aritmatika
 $x = 10;
 $y = 20;
-echo $x - $y ; #operator pengurangan
+echo $x * $y ; #operator perkalian
 ?>
